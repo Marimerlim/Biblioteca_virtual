@@ -1,0 +1,16 @@
+.chamada{
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+
+    h2{
+        color: #FFF;
+        font-size: 32px;
+        width: 20%;
+    }
+
+}
