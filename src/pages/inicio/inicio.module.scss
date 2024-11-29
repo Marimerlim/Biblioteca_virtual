@@ -14,3 +14,42 @@
     }
 
 }
+
+.motivos{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2{
+        margin-left: 5%;
+        color: #005695;
+        font-weight: 500;
+        font-size: 40px;
+    }
+}
+
+.containerCards{
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+
+    section{
+        background-color: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    
+        p{
+            font-size: 22px;
+            text-align: center;
+            width: 90%;
+        }
+    }
+
+
+
+}

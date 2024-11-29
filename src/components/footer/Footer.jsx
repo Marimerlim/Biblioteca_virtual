@@ -7,9 +7,9 @@ import Youtube from '../../assets/youtube.png'
 
 export default function Footer() {
     return (
-      <footer className={s.footer}>
+      <footer>
         <section className={s.contatos}>
-          <p>4002-8922</p>
+          <h3>4002-8922</h3>
           <nav>
           <a href=""><img src={Facebook} alt="Logo do Facebook" /></a>
           <a href=""><img src={Instagram} alt="Logo do Instagram" /></a>

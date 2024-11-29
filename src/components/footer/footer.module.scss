@@ -1,6 +1,7 @@
-.contatosFooter{
+
+.contatos{
     background-color: #005695;
-    height: 15vh;
+    height: 9vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,13 +12,14 @@
         display: flex;
         justify-content:space-between ;
         align-items: center;
+
     }
 }
 
 .copyright{
     background-color: #232020;
     color: #FFF;
-    height: 6vh;
+    height: 5vh;
     display: flex;
     justify-content:center;
     align-items: center;
