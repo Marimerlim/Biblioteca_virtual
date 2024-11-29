@@ -44,6 +44,7 @@ input{
 }
 
 .button {
+    color: #FFF;
     width: 50%;
     height: 8vh;
     font-size: 24px;
@@ -52,4 +53,20 @@ input{
     font-size: 24px;
     background-color: #005695;
 
+}
+
+@media (max-width: 768px){
+    .page{
+        text-align: center
+    }
+    form{
+        width: 90%;
+        height: 70vh;
+    }
+    div{
+        flex-wrap: wrap;
+    }
+    input{
+        width: 85%;
+    }
 }

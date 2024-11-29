@@ -1,7 +1,7 @@
 
 .contatos{
     background-color: #005695;
-    height: 9vh;
+    height: 15vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,7 +10,7 @@
     nav{
         width: 15%;
         display: flex;
-        justify-content:space-between ;
+        justify-content:space-between;
         align-items: center;
 
     }
@@ -23,4 +23,20 @@
     display: flex;
     justify-content:center;
     align-items: center;
+}
+
+@media (max-width: 768px){
+    .contatos{
+        flex-direction: column;
+        nav{
+            width: 60%;
+        }
+    }
+
+    .copyright{
+        text-align: center;
+        height: 10vh;
+        padding: 5%;
+
+    }
 }

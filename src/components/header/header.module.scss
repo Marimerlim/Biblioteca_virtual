@@ -14,7 +14,7 @@
     align-items: center;
   
     img {
-      width: 20%;
+      width: 15%;
     }
   
     h1 {
@@ -68,3 +68,22 @@
     }
   }
   
+
+  @media (max-width: 768px){
+    .header{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .logoHeader{
+      width: 90%;
+      img{
+        width: 15%;
+      }
+    }
+    .navHeader{
+      width: 95%;
+    }
+    .barraDeBusca{
+      display: none;
+    }
+  }
